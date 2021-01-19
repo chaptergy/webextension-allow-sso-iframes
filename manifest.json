@@ -1,0 +1,11 @@
+{
+  "background": {
+    "scripts": [ "background.js" ]
+  },
+  "description": "Drops and changes HTTP response headers to allow sso login pages to be iframed.",
+  "manifest_version": 2,
+  "name": "Allow SSO iFrames",
+  "permissions": [ "webRequest", "webRequestBlocking", "<all_urls>" ],
+  "homepage_url": "https://github.com/chaptergy/webextension-allow-sso-iframes",
+  "version": "1.0"
+}
