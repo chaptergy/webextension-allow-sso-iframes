@@ -7,5 +7,9 @@
   "name": "Allow SSO iFrames",
   "permissions": [ "webRequest", "webRequestBlocking", "<all_urls>" ],
   "homepage_url": "https://github.com/chaptergy/webextension-allow-sso-iframes",
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
   "version": "1.0"
 }
