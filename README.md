@@ -12,3 +12,8 @@ It does the following:
 
 
 Note, that when cookies within this iframe are required, the iframe content has to be HTTPS, otherwise cookies will not be set.
+
+## Download from Stores
+
+The Add-On is available on the [Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/allow-sso-iframes/).  
+I have not published it on the chrome web store, since they charge a fee to do so.
