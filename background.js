@@ -41,7 +41,7 @@ function changeResponseHeaders(details){
       } else if (header.name.toLowerCase() === 'set-cookie') {
         // Change cookies to be SameSite=None
         if(header.value.match(/;\s*[Ss]ame[Ss]ite=/)){
-          header.value.replace(/;\s*[Ss]ame[Ss]ite=[^;]*/, '; SameSite=None');
+          header = header.value.replace(/;\s*[Ss]ame[Ss]ite=[^;]*/, '; SameSite=None');
         } else {
           header.value += '; SameSite=None';
         }
